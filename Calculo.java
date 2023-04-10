@@ -12,6 +12,18 @@ public class Calculo {
         System.out.println("O resultado da função para x = " + x + " é " + resultado);
 
         sc.close();
+        /*x3=int
+        x2
+        x1
+        1
+        for
+        soma=x3.i+x2*i+x1*i
+        print
+         * 
+         * 
+         * 
+         * 
+         */
     }
 
     public static double calcularFuncao(double x) {
