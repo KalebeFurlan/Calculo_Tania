@@ -3,7 +3,7 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import java.util.Scanner;
 
-public class CalculoDivero {
+public class CalculoDiverso {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
