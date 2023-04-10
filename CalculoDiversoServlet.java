@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CalculoDiversoServlet extends HttpServlet {
+public class CalculoDiversoServlet extends HttpServlet implements Interface {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String expressao = request.getParameter("expressao");
         double resultado = calcular(expressao);
