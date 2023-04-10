@@ -1,29 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <div class="barra">
-        home|informação
-    </div>
+    <title>Calculadora</title>
 </head>
 <body>
-    
-    <form>
-        <h2>Informe a conta que deseja calcular</h2>
-        <input type="text">
+    <form method="post" action="calcular">
+        <label for="expressao">Digite a expressão matemática:</label>
+        <input type="text" name="expressao" id="expressao">
+        <br>
+        <input type="submit" value="Calcular">
     </form>
 </body>
-<style>
-    input{
-        width: 200px;
-    }
-    .barra{
-        margin-top: 0px;
-        background-color: aqua;
-        width: auto;
-    }
-</style>
 </html>
